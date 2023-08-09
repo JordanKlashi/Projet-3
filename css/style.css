@@ -11,7 +11,7 @@
 }
 
 h1 {
-    margin-top:50px;
+    margin-top:30px;
     margin-bottom:0;
 }
 h4 {
@@ -52,7 +52,6 @@ body {
 .Header__link {
     display:flex;
     justify-content: flex-end;
-    padding-bottom:0;
     gap:50px;
     text-decoration:none;
 }
@@ -76,7 +75,7 @@ body {
 .fa-location-dot {
     color:black;
     padding:12px;
-    padding-right:17px;
+
 }
 .Locate-Marseille {
     border:solid 0.5px var(--main-bg-color);
@@ -84,6 +83,7 @@ body {
     text-align: center;
     font-weight: bold;
     font-size:16px;
+    width:280px;
     
 }
 .locate {
@@ -98,6 +98,7 @@ body {
     border-bottom-left-radius: 10px;
     background-color: var(--main-bg-color);
     border:solid var(--main-bg-color);
+    text-align: center;
 }
 .Rechercher {
     background-color: var(--main-color);
@@ -112,6 +113,10 @@ body {
 }
 .Logo-rechercher {
     display:none;
+    background-color: #0065FC;
+    border-radius:20px;
+    border:solid #0065FC;
+    padding:5px;
 }
 .span-fa-info {
     border-radius:50px;
@@ -119,9 +124,18 @@ body {
     background-color: white;
     padding:0 7px;
     text-align: center;
+    justify-content: center;
 }
 .fa-info {
     background-color: white;
+    
+}
+.Information {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:5px;
+    
 }
 .Filter-flex{
     display:flex;
@@ -173,7 +187,8 @@ body {
 }
 .hebergements-and-populaires {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap:40px;
 }
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
@@ -189,6 +204,9 @@ body {
     height: 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;  
+}
+#hebergements {
+    gap:30px;
 }
 .hebergements {
     display:flex;
@@ -239,6 +257,7 @@ body {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
 /************* Activités **********/
 .title-activities-marseille {
     Margin-left:30px;
@@ -246,12 +265,13 @@ body {
     margin-bottom:30px;
 }
 .activity {
-        margin-left:30px;
-        display:flex;
-        flex-direction:row;
-        width:35%;
-        padding-bottom:55px;
+    margin-left:30px;
+    display:flex;
+    flex-direction:row;
+    width:35%;
+    padding-bottom:35px;
 }
+
 .card-activity {
     display:flex;
     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
@@ -259,10 +279,11 @@ body {
     border-radius: 25px;
     margin-right: 25px;
     display:flex;
+    width:80%;
 }
 .card-activity img {
     border-radius: 25px 25px 0 0 ;
-    width: 297.5px; 
+    width: 297px; 
     height: 400px;
     object-fit: cover;
 }
@@ -276,7 +297,7 @@ body {
     grid-template-columns:1fr 1fr 1fr 1fr;
 }
 .footer-txt {
-    margin-left:15px;
+    padding:20px;
     text-decoration:none;
 }
 .footer-txt a{
@@ -362,9 +383,20 @@ body {
     display:flex;
     justify-content: center;
 }
+.Header__link-decoration {
+    display:grid;
+    grid-template-rows: 50% 50%;
+    border-bottom:solid 2px white;
+    margin:0;
+}
+.Header__link-decoration:hover {
+    border-top:none;
+    border-bottom:solid 2px var(--main-color);
+}
 .main-container {
     padding:0;
 }
+
 nav {
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -403,15 +435,13 @@ nav {
 }
 .Logo-rechercher {
     display:block;
-    background-color: #0065FC;
-    border-radius:10px;
-    border:solid #0065FC;
 }
 .locate {
     margin-left:5px;
 }
 .location-dot {
-    margin-right:20px;
+    position:absolute;
+
 }
 .Locate-Marseille{
     border-right:none;
@@ -464,6 +494,8 @@ nav {
     display:flex;
     flex-direction:column;
     justify-content: space-around;
+    margin:0;
+    margin-left:20px;
 }
 .card-activity {
     width: 325px;
