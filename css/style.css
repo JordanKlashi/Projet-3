@@ -284,7 +284,7 @@ body {
     gap:20px;
 }
 .card-activity {
-
+    width:100%;
     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
     transition:0.3s;
     border-radius: 25px;
@@ -410,8 +410,6 @@ body {
     flex:1;
     text-align: center;
     padding-bottom:10px;
-    
-
 }
 .Header__link-decoration:hover {
     border-top:none;
@@ -420,29 +418,6 @@ body {
 nav {
     display:grid;
     grid-template-columns: 1fr 1fr;
-}
-.Entete-heber {
-    display:flex;
-    justify-content: center;
-    padding:45px;
-    margin:0;
-    padding-bottom:20px;
-    border-bottom:solid 2px #F2F2F2;
-}
-.Entete-heber:hover {
-    border-top:none;
-    border-bottom:solid 2px #0065FC;
-}
-.Entete-acti {
-    padding:45px;
-    margin:0;
-    padding-right: 60px;
-    padding-bottom:20px;
-    border-bottom:solid 2px #F2F2F2;
-}
-.Entete-acti:hover {
-    border-top:none;
-    border-bottom:solid 2px #0065FC;
 }
 .Rechercher {
     padding:0;
@@ -489,12 +464,10 @@ nav {
 }
 #hebergements {
     background-color: white;
-    margin:0;
     margin-bottom:50px;
 }
 
 .populaires-cards {
-    display:flex;
     flex-direction:column;
 }
 
@@ -506,16 +479,11 @@ nav {
 }
 
 .activity {
-    display:flex;
     flex-direction:column;
-    justify-content: space-around;
-    margin:0;
-    margin-left:20px;
 }
 .card-activity {
     height: 200px;
     margin-bottom:15px;
-
 }
 .card-activity img {
     height:141px;
