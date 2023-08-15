@@ -151,20 +151,17 @@ body {
     margin-right:15px;
     border:var(--border-button-color) solid 2px;
     height:50px;
-    padding: 10px;
     font-size: medium;
     text-align: center;
-    padding-left:5px;
     font-weight:bold;
-    padding-left:20px;
-    padding-right:20px;
-    gap:10px;
+    padding-left:10px;
+
 }
 .button:hover{
     background-color: var(--filter-bg-color);
 }
 .button__txt {
-    font-weight: 700;
+    padding-left:10px;
 }
 .euro {
     font-weight: 700;
