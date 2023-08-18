@@ -84,6 +84,7 @@ body {
     color:black;
     font-weight:bold;
     font-size:16px;
+    opacity:1;
 }
 .locate-button {
     display:flex;
@@ -110,7 +111,7 @@ body {
     border-radius:20px;
     border:solid #0065FC;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
-    width:60px;
+    width:85px;
     transform:translateX(-30%)
     
 }
@@ -154,14 +155,16 @@ body {
     font-size: medium;
     text-align: center;
     font-weight:bold;
-    padding-left:10px;
-
+    padding:10px;
 }
 .button:hover{
     background-color: var(--filter-bg-color);
 }
+.button-filtres__logo {
+    padding:5px;
+}
 .button__txt {
-    padding-left:10px;
+    font-size:12px;
 }
 .euro {
     font-weight: 700;
@@ -304,6 +307,9 @@ body {
 .card-txt {
     margin-left:10px;
 }
+.Subtitle-activity{
+    font-size:16px;
+}
 .footer-background {
     margin-top:30px;
     background-color: #f2f2f2;
@@ -319,8 +325,13 @@ body {
     color:black;
     padding-bottom:15px;
 }
-.footer-txt article{
-    padding-bottom:15px;
+.footer-txt__list{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.footer-txt__list li{
+    padding-bottom:10px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -433,6 +444,9 @@ body {
 .locate {
     padding:0 10px 0 20px;
 }
+.Locate-Marseille{
+    width:100%;
+}
 .button {
     margin-bottom:20px;
     text-align:left;
@@ -483,3 +497,7 @@ body {
     gap:0;
 }
 }
+
+
+ découpage++
+ insérez figma
